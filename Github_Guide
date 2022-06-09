@@ -8,3 +8,23 @@ Pull requests are the heart of collaboration on GitHub. When you open a pull req
 
 Merging your pull request
 In this final step, you will merge your readme-edits branch into the main branch. After you merge your pull request, the changes on your readme-edits branch will be incorporated into main
+
+
+How to create repo locally
+1. mkdir 
+2. Creating repo on Github webpage.
+3. git init
+4. git add .
+5. git commit -m 'Some Message'
+6. git branch -M main 
+7. git remote add origin <repo url> 
+8. git push -u origin main
+
+If type in WRONG url, try this:
+1. Check repo: git remote -v
+origin	https://github.com/Kemama/Tech_Refe (fetch)
+origin	https://github.com/Kemama/Tech_Refe (push)
+2. Re-set repo url: git remote set-url origin https://github.com/Kemama/Tech_Reference.git
+3. Check again: git remote -v
+origin	https://github.com/Kemama/Tech_Reference.git (fetch)
+origin	https://github.com/Kemama/Tech_Reference.git (push)
