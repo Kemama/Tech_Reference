@@ -1,0 +1,6 @@
+Remember the command:
+git am *.patch
+
+Remember the path:
+/root/avocado/data/avocado-vt/virttest/test-providers.d/downloads/io-github-autotest-qemu/
+/home/kar/workplace/avocado
